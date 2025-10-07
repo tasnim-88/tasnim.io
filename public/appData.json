@@ -1,0 +1,272 @@
+[
+  {
+    "image": "/src/assets/demo-app (1).webp",
+    "title": "SnapPix",
+    "companyName": "VisionSoft Studios",
+    "id": 1,
+    "description": "A fast and fun photo-sharing app that lets you capture your moments and share them instantly with friends.",
+    "size": 85,
+    "reviews": 128456,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 3400 },
+      { "name": "2 star", "count": 5200 },
+      { "name": "3 star", "count": 11500 },
+      { "name": "4 star", "count": 32400 },
+      { "name": "5 star", "count": 75856 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (2).webp",
+    "title": "TaskFlow",
+    "companyName": "NextGen Labs",
+    "id": 2,
+    "description": "Organize your daily tasks, set goals, and track productivity effortlessly.",
+    "size": 42,
+    "reviews": 95430,
+    "ratingAvg": 4.2,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 4100 },
+      { "name": "2 star", "count": 6200 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 28800 },
+      { "name": "5 star", "count": 41330 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (3).webp",
+    "title": "Beatify Music",
+    "companyName": "Lunar Beats Inc.",
+    "id": 3,
+    "description": "Stream millions of songs ad-free and create custom playlists with Beatify.",
+    "size": 110,
+    "reviews": 301020,
+    "ratingAvg": 4.8,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 8500 },
+      { "name": "2 star", "count": 9300 },
+      { "name": "3 star", "count": 20100 },
+      { "name": "4 star", "count": 45120 },
+      { "name": "5 star", "count": 218000 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (4).webp",
+    "title": "FitBuddy",
+    "companyName": "Active Life Co.",
+    "id": 4,
+    "description": "Track your workouts, monitor your health, and stay motivated with personalized fitness goals.",
+    "size": 70,
+    "reviews": 87400,
+    "ratingAvg": 4.5,
+    "downloads": 3500000,
+    "ratings": [
+      { "name": "1 star", "count": 2300 },
+      { "name": "2 star", "count": 3400 },
+      { "name": "3 star", "count": 8600 },
+      { "name": "4 star", "count": 25800 },
+      { "name": "5 star", "count": 53300 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (5).webp",
+    "title": "TravelEase",
+    "companyName": "JetPath Technologies",
+    "id": 5,
+    "description": "Book flights, hotels, and find the best travel deals all in one app.",
+    "size": 64,
+    "reviews": 189500,
+    "ratingAvg": 4.3,
+    "downloads": 7200000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 7400 },
+      { "name": "3 star", "count": 16400 },
+      { "name": "4 star", "count": 43200 },
+      { "name": "5 star", "count": 117500 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (6).webp",
+    "title": "CookBook+",
+    "companyName": "FlavorTech",
+    "id": 6,
+    "description": "Discover thousands of recipes and create your own digital cookbook with step-by-step guides.",
+    "size": 55,
+    "reviews": 54000,
+    "ratingAvg": 4.7,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 12400 },
+      { "name": "5 star", "count": 34500 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (1).webp",
+    "title": "NoteX",
+    "companyName": "Pixelware Labs",
+    "id": 7,
+    "description": "A minimal, fast, and secure note-taking app with markdown and cloud sync.",
+    "size": 33,
+    "reviews": 60120,
+    "ratingAvg": 4.4,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 2300 },
+      { "name": "2 star", "count": 3300 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 20400 },
+      { "name": "5 star", "count": 26920 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (2).webp",
+    "title": "ShopSmart",
+    "companyName": "UrbanCart LLC",
+    "id": 8,
+    "description": "Find exclusive deals, discounts, and cashback offers on your favorite brands.",
+    "size": 90,
+    "reviews": 249800,
+    "ratingAvg": 4.1,
+    "downloads": 8700000,
+    "ratings": [
+      { "name": "1 star", "count": 11800 },
+      { "name": "2 star", "count": 14300 },
+      { "name": "3 star", "count": 28300 },
+      { "name": "4 star", "count": 60400 },
+      { "name": "5 star", "count": 135000 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (3).webp",
+    "title": "MindEase",
+    "companyName": "Peaceful Minds Co.",
+    "id": 9,
+    "description": "Meditation, breathing exercises, and mindfulness sessions to help you relax and sleep better.",
+    "size": 68,
+    "reviews": 104000,
+    "ratingAvg": 4.8,
+    "downloads": 4600000,
+    "ratings": [
+      { "name": "1 star", "count": 1600 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 5100 },
+      { "name": "4 star", "count": 18800 },
+      { "name": "5 star", "count": 76300 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (4).webp",
+    "title": "CryptoVault",
+    "companyName": "BlockChainX",
+    "id": 10,
+    "description": "Securely buy, store, and track your cryptocurrency portfolio with advanced analytics.",
+    "size": 120,
+    "reviews": 154600,
+    "ratingAvg": 4.3,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 6700 },
+      { "name": "2 star", "count": 9500 },
+      { "name": "3 star", "count": 18400 },
+      { "name": "4 star", "count": 37900 },
+      { "name": "5 star", "count": 82000 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (5).webp",
+    "title": "EduTrack",
+    "companyName": "SmartLearn Systems",
+    "id": 11,
+    "description": "Your personalized learning companion that tracks progress, suggests lessons, and helps you reach goals.",
+    "size": 61,
+    "reviews": 74500,
+    "ratingAvg": 4.6,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 2900 },
+      { "name": "3 star", "count": 6400 },
+      { "name": "4 star", "count": 21300 },
+      { "name": "5 star", "count": 41800 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (6).webp",
+    "title": "WeatherPro+",
+    "companyName": "SkyView Analytics",
+    "id": 12,
+    "description": "Accurate forecasts, radar maps, and live weather alerts to keep you prepared.",
+    "size": 48,
+    "reviews": 125300,
+    "ratingAvg": 4.2,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 6100 },
+      { "name": "2 star", "count": 7400 },
+      { "name": "3 star", "count": 14200 },
+      { "name": "4 star", "count": 33200 },
+      { "name": "5 star", "count": 64400 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (1).webp",
+    "title": "BudgetWise",
+    "companyName": "FinMate Inc.",
+    "id": 13,
+    "description": "Track expenses, set budgets, and save smarter with visual insights on your spending habits.",
+    "size": 50,
+    "reviews": 81000,
+    "ratingAvg": 4.7,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 1900 },
+      { "name": "2 star", "count": 2600 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 17600 },
+      { "name": "5 star", "count": 54000 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (2).webp",
+    "title": "StoryHub",
+    "companyName": "LitVerse Ltd.",
+    "id": 14,
+    "description": "Read and write stories across genres, join writing contests, and connect with readers worldwide.",
+    "size": 77,
+    "reviews": 98000,
+    "ratingAvg": 4.5,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 4800 },
+      { "name": "3 star", "count": 9700 },
+      { "name": "4 star", "count": 27300 },
+      { "name": "5 star", "count": 52900 }
+    ]
+  },
+  {
+    "image": "/src/assets/demo-app (3).webp",
+    "title": "DriveSafe",
+    "companyName": "AutoGuard Systems",
+    "id": 15,
+    "description": "AI-powered driving assistant that monitors routes, fuel, and driving behavior for better safety.",
+    "size": 88,
+    "reviews": 56200,
+    "ratingAvg": 4.4,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 1900 },
+      { "name": "2 star", "count": 3300 },
+      { "name": "3 star", "count": 6200 },
+      { "name": "4 star", "count": 16400 },
+      { "name": "5 star", "count": 28400 }
+    ]
+  }
+]
