@@ -1,272 +1,272 @@
 [
   {
-    "image": "/src/assets/demo-app (1).webp",
-    "title": "SnapPix",
-    "companyName": "VisionSoft Studios",
+    "image": "https://i.ibb.co.com/k2FkQ9HT/Whats-App-Messenger.png", 
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
     "id": 1,
-    "description": "SnapPix makes photo sharing fast, fun, and social. Capture your favorite moments, apply trending filters, and share instantly with friends or followers. With stories, challenges, and community galleries, SnapPix helps you express your creativity in new ways every day.",
-    "size": 85,
-    "reviews": "128K",
-    "ratingAvg": 4.6,
-    "downloads": "5M",
+    "description": "Simple. Secure. Reliable messaging and calling, available on phones all over the world.",
+    "size": 35,
+    "reviews": "212M",
+    "ratingAvg": 4.4,
+    "downloads": "10B+",
     "ratings": [
-      { "name": "1 star", "count": 3400 },
-      { "name": "2 star", "count": 5200 },
-      { "name": "3 star", "count": 11500 },
-      { "name": "4 star", "count": 32400 },
-      { "name": "5 star", "count": 75856 }
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 50000000 },
+      { "name": "5 star", "count": 145000000 }
     ]
   },
   {
-    "image": "/src/assets/demo-app (2).webp",
-    "title": "TaskFlow",
-    "companyName": "NextGen Labs",
+    "image": "https://play-lh.googleusercontent.com/jRz8LOXvQZg7GxXGi8Z6CBz7jBqckZzRgZ_f8c8Uj6FqXyhjI6MNj0u7UayxJ6d8Q", 
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
     "id": 2,
-    "description": "TaskFlow is your smart productivity assistant that helps you organize projects, set reminders, and track progress with ease. Visual boards and AI-powered insights keep you focused, while sync across all your devices ensures you never miss a task again.",
-    "size": 42,
-    "reviews": "95K",
-    "ratingAvg": 4.2,
-    "downloads": "2.3M",
-    "ratings": [
-      { "name": "1 star", "count": 4100 },
-      { "name": "2 star", "count": 6200 },
-      { "name": "3 star", "count": 15000 },
-      { "name": "4 star", "count": 28800 },
-      { "name": "5 star", "count": 41330 }
-    ]
-  },
-  {
-    "image": "/src/assets/demo-app (3).webp",
-    "title": "Beatify Music",
-    "companyName": "Lunar Beats Inc.",
-    "id": 3,
-    "description": "Experience high-quality music streaming with Beatify. Discover trending artists, listen offline, and create playlists tailored to your mood. With ad-free playback, lyrics sync, and personalized recommendations, your music world just got better.",
-    "size": 110,
-    "reviews": "301K",
-    "ratingAvg": 4.8,
-    "downloads": "10M",
-    "ratings": [
-      { "name": "1 star", "count": 8500 },
-      { "name": "2 star", "count": 9300 },
-      { "name": "3 star", "count": 20100 },
-      { "name": "4 star", "count": 45120 },
-      { "name": "5 star", "count": 218000 }
-    ]
-  },
-  {
-    "image": "/src/assets/demo-app (4).webp",
-    "title": "FitBuddy",
-    "companyName": "Active Life Co.",
-    "id": 4,
-    "description": "FitBuddy is your all-in-one fitness coach. Log workouts, monitor heart rate, and set personal health goals. With smart analytics, personalized plans, and progress tracking, it keeps you motivated every step of your fitness journey.",
-    "size": 70,
-    "reviews": "87K",
-    "ratingAvg": 4.5,
-    "downloads": "3.5M",
-    "ratings": [
-      { "name": "1 star", "count": 2300 },
-      { "name": "2 star", "count": 3400 },
-      { "name": "3 star", "count": 8600 },
-      { "name": "4 star", "count": 25800 },
-      { "name": "5 star", "count": 53300 }
-    ]
-  },
-  {
-    "image": "/src/assets/demo-app (5).webp",
-    "title": "TravelEase",
-    "companyName": "JetPath Technologies",
-    "id": 5,
-    "description": "TravelEase helps you plan smarter and travel easier. From finding the best flight and hotel deals to managing itineraries and travel insurance, this app simplifies your entire trip. Get real-time flight updates and exclusive discounts worldwide.",
-    "size": 64,
-    "reviews": "189K",
-    "ratingAvg": 4.3,
-    "downloads": "7.2M",
-    "ratings": [
-      { "name": "1 star", "count": 5000 },
-      { "name": "2 star", "count": 7400 },
-      { "name": "3 star", "count": 16400 },
-      { "name": "4 star", "count": 43200 },
-      { "name": "5 star", "count": 117500 }
-    ]
-  },
-  {
-    "image": "/src/assets/demo-app (6).webp",
-    "title": "CookBook+",
-    "companyName": "FlavorTech",
-    "id": 6,
-    "description": "CookBook+ is your digital kitchen companion with thousands of chef-tested recipes and easy-to-follow tutorials. Save your favorites, create shopping lists, and explore global cuisines from the comfort of your home.",
-    "size": 55,
-    "reviews": "54K",
-    "ratingAvg": 4.7,
-    "downloads": "1.8M",
-    "ratings": [
-      { "name": "1 star", "count": 1100 },
-      { "name": "2 star", "count": 1800 },
-      { "name": "3 star", "count": 4200 },
-      { "name": "4 star", "count": 12400 },
-      { "name": "5 star", "count": 34500 }
-    ]
-  },
-  {
-    "image": "/src/assets/demo-app (1).webp",
-    "title": "NoteX",
-    "companyName": "Pixelware Labs",
-    "id": 7,
-    "description": "NoteX is a lightweight, privacy-focused note app designed for simplicity and speed. Sync across all your devices, organize with tags, and write seamlessly with markdown support. Ideal for journaling, study notes, or quick ideas.",
-    "size": 33,
-    "reviews": "60K",
-    "ratingAvg": 4.4,
-    "downloads": "2.9M",
-    "ratings": [
-      { "name": "1 star", "count": 2300 },
-      { "name": "2 star", "count": 3300 },
-      { "name": "3 star", "count": 7200 },
-      { "name": "4 star", "count": 20400 },
-      { "name": "5 star", "count": 26920 }
-    ]
-  },
-  {
-    "image": "/src/assets/demo-app (2).webp",
-    "title": "ShopSmart",
-    "companyName": "UrbanCart LLC",
-    "id": 8,
-    "description": "ShopSmart connects you with thousands of online deals and coupons from popular retailers. Track prices, compare brands, and earn cashback on every purchase — all while saving time and money effortlessly.",
+    "description": "Make your day with short videos. TikTok is the leading destination for short-form mobile video.",
     "size": 90,
-    "reviews": "249K",
+    "reviews": "67M",
     "ratingAvg": 4.1,
-    "downloads": "8.7M",
+    "downloads": "1B+",
     "ratings": [
-      { "name": "1 star", "count": 11800 },
-      { "name": "2 star", "count": 14300 },
-      { "name": "3 star", "count": 28300 },
-      { "name": "4 star", "count": 60400 },
-      { "name": "5 star", "count": 135000 }
+      { "name": "1 star", "count": 10000000 },
+      { "name": "2 star", "count": 8000000 },
+      { "name": "3 star", "count": 15000000 },
+      { "name": "4 star", "count": 200000000 },
+      { "name": "5 star", "count": 540000000 }
     ]
   },
   {
-    "image": "/src/assets/demo-app (3).webp",
-    "title": "MindEase",
-    "companyName": "Peaceful Minds Co.",
-    "id": 9,
-    "description": "MindEase brings peace and mindfulness to your daily routine with guided meditations, sleep sounds, and relaxation exercises. Reduce stress, sleep deeper, and build healthy habits with scientifically designed sessions.",
-    "size": 68,
-    "reviews": "104K",
-    "ratingAvg": 4.8,
-    "downloads": "4.6M",
-    "ratings": [
-      { "name": "1 star", "count": 1600 },
-      { "name": "2 star", "count": 2200 },
-      { "name": "3 star", "count": 5100 },
-      { "name": "4 star", "count": 18800 },
-      { "name": "5 star", "count": 76300 }
-    ]
-  },
-  {
-    "image": "/src/assets/demo-app (4).webp",
-    "title": "CryptoVault",
-    "companyName": "BlockChainX",
-    "id": 10,
-    "description": "CryptoVault is a secure crypto wallet and portfolio tracker. Trade, stake, and monitor your digital assets across multiple blockchains with real-time market updates and top-grade encryption.",
-    "size": 120,
-    "reviews": "154K",
+    "image": "https://i.ibb.co.com/gbP92ktY/Instagram.jpg", 
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "Bringing you closer to the people and things you love. — Instagram from Meta",
+    "size": 75,
+    "reviews": "100M",
     "ratingAvg": 4.3,
-    "downloads": "6M",
+    "downloads": "10B+",
     "ratings": [
-      { "name": "1 star", "count": 6700 },
-      { "name": "2 star", "count": 9500 },
-      { "name": "3 star", "count": 18400 },
-      { "name": "4 star", "count": 37900 },
-      { "name": "5 star", "count": 82000 }
+      { "name": "1 star", "count": 8000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 45000000 },
+      { "name": "5 star", "count": 350000000 }
     ]
   },
   {
-    "image": "/src/assets/demo-app (5).webp",
-    "title": "EduTrack",
-    "companyName": "SmartLearn Systems",
-    "id": 11,
-    "description": "EduTrack transforms your learning experience by tracking study time, analyzing progress, and suggesting lessons that match your goals. Ideal for students and professionals looking to upskill efficiently.",
-    "size": 61,
-    "reviews": "74K",
-    "ratingAvg": 4.6,
-    "downloads": "3.2M",
-    "ratings": [
-      { "name": "1 star", "count": 2100 },
-      { "name": "2 star", "count": 2900 },
-      { "name": "3 star", "count": 6400 },
-      { "name": "4 star", "count": 21300 },
-      { "name": "5 star", "count": 41800 }
-    ]
-  },
-  {
-    "image": "/src/assets/demo-app (6).webp",
-    "title": "WeatherPro+",
-    "companyName": "SkyView Analytics",
-    "id": 12,
-    "description": "WeatherPro+ delivers hyper-accurate forecasts, real-time radar maps, and live alerts. Whether it’s rain, wind, or sunshine — stay prepared with 24-hour weather intelligence and regional updates.",
-    "size": 48,
-    "reviews": "125K",
-    "ratingAvg": 4.2,
-    "downloads": "5.6M",
-    "ratings": [
-      { "name": "1 star", "count": 6100 },
-      { "name": "2 star", "count": 7400 },
-      { "name": "3 star", "count": 14200 },
-      { "name": "4 star", "count": 33200 },
-      { "name": "5 star", "count": 64400 }
-    ]
-  },
-  {
-    "image": "/src/assets/demo-app (1).webp",
-    "title": "BudgetWise",
-    "companyName": "FinMate Inc.",
-    "id": 13,
-    "description": "BudgetWise helps you take control of your finances. Track expenses, set budgets, and get insights into your spending habits through beautiful visual dashboards. Smart savings tips included!",
-    "size": 50,
-    "reviews": "81K",
-    "ratingAvg": 4.7,
-    "downloads": "2.8M",
-    "ratings": [
-      { "name": "1 star", "count": 1900 },
-      { "name": "2 star", "count": 2600 },
-      { "name": "3 star", "count": 4800 },
-      { "name": "4 star", "count": 17600 },
-      { "name": "5 star", "count": 54000 }
-    ]
-  },
-  {
-    "image": "/src/assets/demo-app (2).webp",
-    "title": "StoryHub",
-    "companyName": "LitVerse Ltd.",
-    "id": 14,
-    "description": "StoryHub connects readers and writers around the globe. Publish stories, join writing contests, explore thousands of user-generated books, and grow your audience with detailed engagement analytics.",
-    "size": 77,
-    "reviews": "98K",
+    "image": "https://play-lh.googleusercontent.com/LA9ZZoi9B5xVrH5P4s1a0X6nx-OO3Nk1iDv6x1t8I3IcgkJXr8X3ZGuvZy6gakKc5Y", 
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 4,
+    "description": "Enjoy your favorite videos and creators with YouTube, the world's video destination.",
+    "size": 90,
+    "reviews": "190M",
     "ratingAvg": 4.5,
-    "downloads": "4.1M",
+    "downloads": "10B+",
     "ratings": [
-      { "name": "1 star", "count": 3200 },
-      { "name": "2 star", "count": 4800 },
-      { "name": "3 star", "count": 9700 },
-      { "name": "4 star", "count": 27300 },
-      { "name": "5 star", "count": 52900 }
+      { "name": "1 star", "count": 10000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 20000000 },
+      { "name": "4 star", "count": 60000000 },
+      { "name": "5 star", "count": 500000000 }
     ]
   },
   {
-    "image": "/src/assets/demo-app (3).webp",
-    "title": "DriveSafe",
-    "companyName": "AutoGuard Systems",
-    "id": 15,
-    "description": "DriveSafe uses AI to monitor your driving behavior and improve road safety. Get real-time alerts, fuel usage reports, and trip insights that help you drive smarter, safer, and more efficiently.",
-    "size": 88,
-    "reviews": "56K",
-    "ratingAvg": 4.4,
-    "downloads": "2.4M",
+    "image": "https://play-lh.googleusercontent.com/ZsDkbzKX0yf0ylMKnZwDP6ky8ZPmHiyVV6LloR53r19sQYgI4Q-lIr2nYKCQYYF4GV", 
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Gmail is built for the way you work, combining secure email, chat, and video calling.",
+    "size": 40,
+    "reviews": "50M",
+    "ratingAvg": 4.3,
+    "downloads": "5B+",
     "ratings": [
-      { "name": "1 star", "count": 1900 },
-      { "name": "2 star", "count": 3300 },
-      { "name": "3 star", "count": 6200 },
-      { "name": "4 star", "count": 16400 },
-      { "name": "5 star", "count": 28400 }
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 220000000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/4kSOStGL3rv2RgxnjZQnZjclGQG9Zqzjsn2s7k4z8sV7Yha0S2u8q2lu4NwFkppS", 
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 6,
+    "description": "Music for everyone. Millions of songs. No credit card needed.",
+    "size": 100,
+    "reviews": "50M",
+    "ratingAvg": 4.6,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 220000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/kgyBwd1n/Telegram.png", 
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 7,
+    "description": "Telegram is a messaging app with a focus on speed and security.",
+    "size": 60,
+    "reviews": "20M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 3000000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 180000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/PvsJfGQW/Snapchat.png", 
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 8,
+    "description": "Snapchat is a camera app, built for electricity, that opens right to the camera.",
+    "size": 75,
+    "reviews": "40M",
+    "ratingAvg": 4.2,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1600000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 240000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rRMJjQK1/Microsoft-Outlook.png", 
+    "title": "Microsoft Outlook",
+    "companyName": "Microsoft Corporation",
+    "id": 9,
+    "description": "Outlook lets you focus on what matters most — your life.",
+    "size": 90,
+    "reviews": "25M",
+    "ratingAvg": 4.5,
+    "downloads": "500M+",
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 18000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jkStMbzW/Microsoft-Word.png", 
+    "title": "Microsoft Word",
+    "companyName": "Microsoft Corporation",
+    "id": 10,
+    "description": "Create, edit, view and share your files with just a few taps.",
+    "size": 120,
+    "reviews": "30M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 21000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/NPhZKB0/Microsoft-Excel.jpg", 
+    "title": "Microsoft Excel",
+    "companyName": "Microsoft Corporation",
+    "id": 11,
+    "description": "Create spreadsheets, charts, and data analysis on the go.",
+    "size": 110,
+    "reviews": "28M",
+    "ratingAvg": 4.3,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 2000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 19000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/JjtxktYy/Amazon-Shopping.png", 
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 12,
+    "description": "The Amazon Shopping app for Android makes it easy to shop millions of products and manage your orders on the go.",
+    "size": 120,
+    "reviews": "25M",
+    "ratingAvg": 4.4,
+    "downloads": "1B+",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 20000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/S40VRr65/Facebook.png", 
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 13,
+    "description": "Connect with friends and the world around you on Facebook.",
+    "size": 100,
+    "reviews": "120M",
+    "ratingAvg": 4.1,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 10000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 15000000 },
+      { "name": "4 star", "count": 40000000 },
+      { "name": "5 star", "count": 150000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bgq2mhmj/Google-Maps.png", 
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 14,
+    "description": "Navigate your world faster and easier with Google Maps.",
+    "size": 100,
+    "reviews": "90M",
+    "ratingAvg": 4.3,
+    "downloads": "10B+",
+    "ratings": [
+      { "name": "1 star", "count": 1500000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 30000000 },
+      { "name": "5 star", "count": 85000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/C5gXBMqz/Google-Drive.png", 
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 15,
+    "description": "Drive gives you free cloud storage for all your files.",
+    "size": 90,
+    "reviews": "70M",
+    "ratingAvg": 4.5,
+    "downloads": "5B+",
+    "ratings": [
+      { "name": "1 star", "count": 2000000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 42000000 }
     ]
   }
 ]

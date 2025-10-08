@@ -1,6 +1,15 @@
 import React from 'react';
 import { useParams } from 'react-router';
 import useApps from '../../Hooks/useApps';
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer
+} from 'recharts';
 
 const AppDetails = () => {
     const { appId } = useParams()
@@ -57,7 +66,22 @@ const AppDetails = () => {
             </div>
             <div className="divider"></div>
             <div>
-                <h1 className='text-2xl font-bold'>Ratings</h1>
+                <h1 className='text-2xl font-bold mb-4'>Ratings</h1>
+                <div className='w-full h-[300px] bg-gray-50 p-4 rounded-lg shadow-sm'>
+                    <ResponsiveContainer width='100%' height='100%'>
+                        <BarChart
+                            layout='vertical'
+                            data={ratings}
+                            margin={{ top: 10, right: 30, left: 40, bottom: 0 }}
+                        >
+                            <CartesianGrid strokeDasharray='3 3' vertical={false} />
+                            <XAxis type='number' />
+                            <YAxis dataKey='name' type='category' width={70} />
+                            <Tooltip />
+                            <Bar dataKey='count' fill='#FF8800' barSize={25} radius={[4, 4, 4, 4]} />
+                        </BarChart>
+                    </ResponsiveContainer>
+                </div>
             </div>
             <div className="divider"></div>
             <div>

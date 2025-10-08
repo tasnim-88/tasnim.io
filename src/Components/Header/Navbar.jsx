@@ -6,9 +6,9 @@ import { Link } from 'react-router';
 const Navbar = () => {
 
     const links = <>
-        <Link to={'/'}><li className='m-2 link link-hover'>Home</li></Link>
-        <Link to={'/allCards'}><li className='m-2 link link-hover'>Apps</li></Link>
-        <Link to={'/installed'}><li className='m-2 link link-hover'>Installation</li></Link>
+        <Link to={'/'}><li className='m-2 font-semibold link link-hover'>Home</li></Link>
+        <Link to={'/allCards'}><li className='m-2 font-semibold link link-hover'>Apps</li></Link>
+        <Link to={'/installed'}><li className='m-2 font-semibold link link-hover'>Installation</li></Link>
     </>
 
     return (
@@ -40,7 +40,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end gap-2">
-                <a className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white"><DiGithubBadge className='h-[25px] w-[25px]' />Contribute</a>
+                <a href='https://github.com/tasnim-88' target='_blank' className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white"><DiGithubBadge className='h-[25px] w-[25px]' />Contribute</a>
             </div>
         </div>
     );
