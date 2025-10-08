@@ -1,0 +1,42 @@
+import React, { useState } from 'react';
+import { CiSearch } from "react-icons/ci";
+import useApps from '../../Hooks/useApps';
+import { Link } from 'react-router';
+import AppCard from '../AppCard/AppCard';
+
+const AllCards = () => {
+
+    const [apps] = useApps()
+    const [search, setSearch] = useState('')
+    const term= search.trim().toLocaleLowerCase()
+    const searchApps= term? apps.filter(app=> app.title.toLocaleLowerCase().includes(term)): apps
+
+
+    return (
+        <div className='max-w-[1200px] mx-auto mt-10 text-center space-y-5 border-2'>
+            <h1 className='text-4xl font-bold'>Our All Applications</h1>
+            <p className='text-[#627382]'>Explore All Apps on the Market developed by us. We code for Millions</p>
+
+            <div className='flex justify-between items-center'>
+                <h1 className='text-2xl font-bold'><span>({searchApps.length})</span> Apps Found</h1>
+                <div className="relative w-full max-w-sm">
+                    <CiSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 text-xl" />
+                    <input
+                    value={search} onChange={e=> setSearch(e.target.value)}
+                        type="search"
+                        placeholder="Search Apps"
+                        className="w-full rounded-sm bg-gray-50 p-2 pl-10 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
+                    />
+                </div>
+            </div>
+
+            <div className='grid grid-cols-2 md:grid-cols-4 gap-4'>
+                {
+                    searchApps.map(card => <AppCard key={card.id} card={card}></AppCard>)
+                }
+            </div>
+        </div>
+    );
+};
+
+export default AllCards;

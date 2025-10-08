@@ -6,9 +6,9 @@ import { Link } from 'react-router';
 const Navbar = () => {
 
     const links = <>
-        <li className='m-2 link link-hover'>Home</li>
-        <li className='m-2 link link-hover'>Apps</li>
-        <li className='m-2 link link-hover'>Installation</li>
+        <Link to={'/'}><li className='m-2 link link-hover'>Home</li></Link>
+        <Link to={'/allCards'}><li className='m-2 link link-hover'>Apps</li></Link>
+        <Link to={'/installed'}><li className='m-2 link link-hover'>Installation</li></Link>
     </>
 
     return (

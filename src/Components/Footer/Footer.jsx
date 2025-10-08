@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className='max-w-[1200px] mx-auto md:flex justify-between mt-10 pb-5 border-b-2'>
 
                     <aside className='space-y-2'>
-                        <div className='flex justify-center items-center'>
+                        <div className='flex items-center'>
                             <img className='h-[40px] w-[40px]' src="/src/assets/logo.png" alt="" />
                             <h1 className='text-xl font-bold'>Tasnim.io</h1>
                         </div>
