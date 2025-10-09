@@ -8,8 +8,8 @@ const AllCards = () => {
 
     const [apps] = useApps()
     const [search, setSearch] = useState('')
-    const term= search.trim().toLocaleLowerCase()
-    const searchApps= term? apps.filter(app=> app.title.toLocaleLowerCase().includes(term)): apps
+    const term = search.trim().toLocaleLowerCase()
+    const searchApps = term ? apps.filter(app => app.title.toLocaleLowerCase().includes(term)) : apps
 
 
     return (
@@ -22,7 +22,7 @@ const AllCards = () => {
                 <div className="relative w-full max-w-sm">
                     <CiSearch className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 text-xl" />
                     <input
-                    value={search} onChange={e=> setSearch(e.target.value)}
+                        value={search} onChange={e => setSearch(e.target.value)}
                         type="search"
                         placeholder="Search Apps"
                         className="w-full rounded-sm bg-gray-50 p-2 pl-10 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
@@ -30,10 +30,23 @@ const AllCards = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-2 md:grid-cols-4 gap-4'>
-                {
-                    searchApps.map(card => <AppCard key={card.id} card={card}></AppCard>)
-                }
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {searchApps.length > 0 ? (
+                    searchApps.map(card => <AppCard key={card.id} card={card} />)
+                ) : (
+                    <div className="col-span-full text-center py-10">
+                        <img
+                            src="/src/assets/App-Error.png"
+                            alt="No Apps Found"
+                            className="mx-auto w-[150px] mb-4"
+                        />
+                        <h2 className="text-2xl font-bold text-gray-700">No Apps Found</h2>
+                        <p className="text-gray-500">
+                            Try adjusting your search or explore other categories.
+                        </p>
+                        <Link to={'/'} className="btn bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-white">Go Back!</Link>
+                    </div>
+                )}
             </div>
         </div>
     );

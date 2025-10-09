@@ -1,10 +1,10 @@
 [
   {
-    "image": "https://i.ibb.co.com/k2FkQ9HT/Whats-App-Messenger.png", 
+    "image": "https://i.ibb.co.com/k2FkQ9HT/Whats-App-Messenger.png",
     "title": "WhatsApp Messenger",
     "companyName": "Meta Platforms, Inc.",
     "id": 1,
-    "description": "Simple. Secure. Reliable messaging and calling, available on phones all over the world.",
+    "description": "WhatsApp Messenger lets you stay connected with friends and family anytime, anywhere. Enjoy fast, secure, and private messaging, voice, and video calls across the globe — all for free. Share photos, videos, documents, and voice messages instantly. End-to-end encryption ensures your personal conversations stay private. With WhatsApp, communication is simple, reliable, and secure.",
     "size": 35,
     "reviews": "212M",
     "ratingAvg": 4.4,
@@ -18,11 +18,11 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/jRz8LOXvQZg7GxXGi8Z6CBz7jBqckZzRgZ_f8c8Uj6FqXyhjI6MNj0u7UayxJ6d8Q", 
+    "image": "https://i.ibb.co.com/VdcQGT7/tiktok2.png",
     "title": "TikTok",
     "companyName": "ByteDance Ltd.",
     "id": 2,
-    "description": "Make your day with short videos. TikTok is the leading destination for short-form mobile video.",
+    "description": "TikTok is the ultimate destination for short-form videos. Discover, create, and share moments that entertain and inspire you. With an endless stream of personalized content, powerful editing tools, and creative effects, you can express yourself in new ways every day. Whether you're dancing, learning, or laughing, TikTok brings creativity to your fingertips.",
     "size": 90,
     "reviews": "67M",
     "ratingAvg": 4.1,
@@ -36,11 +36,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/gbP92ktY/Instagram.jpg", 
+    "image": "https://i.ibb.co.com/gbP92ktY/Instagram.jpg",
     "title": "Instagram",
     "companyName": "Meta Platforms, Inc.",
     "id": 3,
-    "description": "Bringing you closer to the people and things you love. — Instagram from Meta",
+    "description": "Instagram is your social hub for sharing life's moments through photos, videos, and Reels. Explore your interests, connect with creators, follow trends, and build your community. Whether you’re posting stories, chatting with friends, or shopping for your favorite brands, Instagram connects you to the people and passions you care about most.",
     "size": 75,
     "reviews": "100M",
     "ratingAvg": 4.3,
@@ -54,11 +54,11 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/LA9ZZoi9B5xVrH5P4s1a0X6nx-OO3Nk1iDv6x1t8I3IcgkJXr8X3ZGuvZy6gakKc5Y", 
+    "image": "https://i.ibb.co.com/5gqh33hL/YouTube.png",
     "title": "YouTube",
     "companyName": "Google LLC",
     "id": 4,
-    "description": "Enjoy your favorite videos and creators with YouTube, the world's video destination.",
+    "description": "YouTube is the world’s largest video platform, where billions come to learn, laugh, and be entertained. Subscribe to your favorite creators, explore trending content, and stream music or live events — all in one place. Whether it’s tutorials, vlogs, or short-form videos, YouTube gives you the freedom to watch what you love and share your own voice with the world.",
     "size": 90,
     "reviews": "190M",
     "ratingAvg": 4.5,
@@ -72,11 +72,11 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/ZsDkbzKX0yf0ylMKnZwDP6ky8ZPmHiyVV6LloR53r19sQYgI4Q-lIr2nYKCQYYF4GV", 
+    "image": "https://i.ibb.co.com/8D062Gy7/Gmail.png",
     "title": "Gmail",
     "companyName": "Google LLC",
     "id": 5,
-    "description": "Gmail is built for the way you work, combining secure email, chat, and video calling.",
+    "description": "Gmail keeps your inbox organized and your communication efficient. Manage your emails easily with smart filters, spam protection, and integrated chat and Meet. Access your mail from anywhere, stay connected across devices, and enjoy Google’s security and productivity features — making email faster, safer, and smarter.",
     "size": 40,
     "reviews": "50M",
     "ratingAvg": 4.3,
@@ -90,11 +90,11 @@
     ]
   },
   {
-    "image": "https://play-lh.googleusercontent.com/4kSOStGL3rv2RgxnjZQnZjclGQG9Zqzjsn2s7k4z8sV7Yha0S2u8q2lu4NwFkppS", 
+    "image": "https://i.ibb.co.com/gbpdBRrn/Spotify.png",
     "title": "Spotify",
     "companyName": "Spotify Ltd.",
     "id": 6,
-    "description": "Music for everyone. Millions of songs. No credit card needed.",
+    "description": "Spotify gives you instant access to millions of songs, podcasts, and playlists. Discover new music, follow your favorite artists, and listen anytime — online or offline. With personalized recommendations and curated mixes, Spotify makes your listening experience truly yours. Whether you’re working out or relaxing, there’s a playlist for every mood.",
     "size": 100,
     "reviews": "50M",
     "ratingAvg": 4.6,
@@ -108,11 +108,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/kgyBwd1n/Telegram.png", 
+    "image": "https://i.ibb.co.com/kgyBwd1n/Telegram.png",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 7,
-    "description": "Telegram is a messaging app with a focus on speed and security.",
+    "description": "Telegram is a fast, secure messaging app that prioritizes privacy and speed. Enjoy cloud-based chats, large group discussions, media sharing, and customizable themes. With secret chats, file sharing up to 2GB, and no ads, Telegram is built for modern communication with complete control and freedom.",
     "size": 60,
     "reviews": "20M",
     "ratingAvg": 4.4,
@@ -126,11 +126,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/PvsJfGQW/Snapchat.png", 
+    "image": "https://i.ibb.co.com/PvsJfGQW/Snapchat.png",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 8,
-    "description": "Snapchat is a camera app, built for electricity, that opens right to the camera.",
+    "description": "Snapchat opens right to the camera so you can share the moment in seconds. Send Snaps, chat with friends, and explore fun filters, Bitmoji, and lenses. Discover stories from around the world and stay connected through authentic visual communication — because life’s better when shared in the moment.",
     "size": 75,
     "reviews": "40M",
     "ratingAvg": 4.2,
@@ -144,11 +144,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/rRMJjQK1/Microsoft-Outlook.png", 
+    "image": "https://i.ibb.co.com/rRMJjQK1/Microsoft-Outlook.png",
     "title": "Microsoft Outlook",
     "companyName": "Microsoft Corporation",
     "id": 9,
-    "description": "Outlook lets you focus on what matters most — your life.",
+    "description": "Microsoft Outlook brings your email, calendar, and contacts together in one organized place. Stay on top of what matters most with intelligent reminders, scheduling tools, and smart inbox features. Sync across devices and collaborate seamlessly with integrated Microsoft 365 apps — designed for productivity and balance.",
     "size": 90,
     "reviews": "25M",
     "ratingAvg": 4.5,
@@ -162,11 +162,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/jkStMbzW/Microsoft-Word.png", 
+    "image": "https://i.ibb.co.com/jkStMbzW/Microsoft-Word.png",
     "title": "Microsoft Word",
     "companyName": "Microsoft Corporation",
     "id": 10,
-    "description": "Create, edit, view and share your files with just a few taps.",
+    "description": "Create, edit, and share documents with Microsoft Word — the trusted word processor for professionals and students. Collaborate in real-time, track changes, and access your files from anywhere. With built-in templates and cloud sync, writing and editing have never been easier.",
     "size": 120,
     "reviews": "30M",
     "ratingAvg": 4.4,
@@ -180,11 +180,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/NPhZKB0/Microsoft-Excel.jpg", 
+    "image": "https://i.ibb.co.com/NPhZKB0/Microsoft-Excel.jpg",
     "title": "Microsoft Excel",
     "companyName": "Microsoft Corporation",
     "id": 11,
-    "description": "Create spreadsheets, charts, and data analysis on the go.",
+    "description": "Microsoft Excel makes it easy to analyze and visualize data. Build spreadsheets, track budgets, and use formulas on the go. With charts, tables, and collaborative tools, Excel is the perfect companion for managing work, school, or personal data — all synced to the cloud for real-time access.",
     "size": 110,
     "reviews": "28M",
     "ratingAvg": 4.3,
@@ -198,11 +198,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/JjtxktYy/Amazon-Shopping.png", 
+    "image": "https://i.ibb.co.com/JjtxktYy/Amazon-Shopping.png",
     "title": "Amazon Shopping",
     "companyName": "Amazon Mobile LLC",
     "id": 12,
-    "description": "The Amazon Shopping app for Android makes it easy to shop millions of products and manage your orders on the go.",
+    "description": "Shop millions of products with the Amazon Shopping app. Browse deals, track orders, and manage returns — all from your phone. With secure payments, personalized recommendations, and fast delivery options, Amazon makes online shopping simple, fast, and convenient for everyone.",
     "size": 120,
     "reviews": "25M",
     "ratingAvg": 4.4,
@@ -216,11 +216,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/S40VRr65/Facebook.png", 
+    "image": "https://i.ibb.co.com/S40VRr65/Facebook.png",
     "title": "Facebook",
     "companyName": "Meta Platforms, Inc.",
     "id": 13,
-    "description": "Connect with friends and the world around you on Facebook.",
+    "description": "Facebook helps you connect, share, and communicate with people around the world. Stay in touch through posts, photos, and videos, or join communities that share your interests. With Marketplace, Watch, and Reels, Facebook is your all-in-one social and discovery platform.",
     "size": 100,
     "reviews": "120M",
     "ratingAvg": 4.1,
@@ -234,11 +234,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/bgq2mhmj/Google-Maps.png", 
+    "image": "https://i.ibb.co.com/bgq2mhmj/Google-Maps.png",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 14,
-    "description": "Navigate your world faster and easier with Google Maps.",
+    "description": "Google Maps helps you navigate the world with accuracy. Find local businesses, real-time traffic updates, public transit info, and street views. Explore nearby restaurants, discover landmarks, or plan trips with turn-by-turn navigation — all from one powerful app trusted by billions.",
     "size": 100,
     "reviews": "90M",
     "ratingAvg": 4.3,
@@ -252,11 +252,11 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/C5gXBMqz/Google-Drive.png", 
+    "image": "https://i.ibb.co.com/C5gXBMqz/Google-Drive.png",
     "title": "Google Drive",
     "companyName": "Google LLC",
     "id": 15,
-    "description": "Drive gives you free cloud storage for all your files.",
+    "description": "Google Drive gives you secure cloud storage for all your files — photos, documents, and videos — accessible anywhere. Collaborate with others in real-time, back up important data, and integrate seamlessly with Google Docs, Sheets, and Slides for a smarter workflow.",
     "size": 90,
     "reviews": "70M",
     "ratingAvg": 4.5,

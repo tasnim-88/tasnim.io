@@ -4,7 +4,7 @@ import AppCard from '../AppCard/AppCard';
 import useApps from '../../Hooks/useApps';
 
 const Apps = () => {
-    const [apps, loading, error]=useApps()
+    const [apps]=useApps()
     const appData= apps.slice(0,8)
     return (
         <div className='max-w-[1200px] mx-auto mt-10 text-center space-y-5 border-2'>

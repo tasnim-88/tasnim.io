@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { PiDownloadSimpleBold } from "react-icons/pi";
 import { FaStar } from "react-icons/fa";
+import { toast } from 'react-toastify';
 
 
 const Installed = () => {
@@ -40,6 +41,7 @@ const Installed = () => {
         setAppList(updatedList)
         // setAppList(prev => prev.filter(p => p.id !== id))
         localStorage.setItem('apps', JSON.stringify(updatedList))
+        toast.success('Uninstalled Successfully!')
     }
 
 
