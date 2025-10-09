@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import useApps from '../../Hooks/useApps';
 import load from '../../../assets/logo.png'
+import download from '../../../assets/icon-downloads.png'
+import rating from '../../../assets/icon-ratings.png'
+import review from '../../../assets/icon-review.png'
 import {
     BarChart,
     Bar,
@@ -71,17 +74,17 @@ const AppDetails = () => {
                     <div className="divider"></div>
                     <div className='flex justify-between gap-10'>
                         <div>
-                            <img src="/src/assets/icon-downloads.png" alt="" />
+                            <img src={download} alt="download" />
                             <p className='text-[#627382]'>Downloads</p>
                             <p className='text-3xl font-bold'>{downloads}</p>
                         </div>
                         <div>
-                            <img src="/src/assets/icon-ratings.png" alt="" />
+                            <img src={rating} alt="rating" />
                             <p className='text-[#627382]'>Average Ratings</p>
                             <p className='text-3xl font-bold'>{ratingAvg}</p>
                         </div>
                         <div>
-                            <img src="/src/assets/icon-review.png" alt="" />
+                            <img src={review} alt="review" />
                             <p className='text-[#627382]'>Total Reviews</p>
                             <p className='text-3xl font-bold'>{reviews}</p>
                         </div>
