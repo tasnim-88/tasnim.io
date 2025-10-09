@@ -63,7 +63,7 @@ const Installed = () => {
 
 
     return (
-        <div className='max-w-[1200px] mx-auto mt-10 space-y-5'>
+        <div className='max-w-[1200px] mx-auto mt-10 space-y-5 px-5 md:px-0'>
 
             <div className='text-center'>
                 <h1 className='text-4xl font-bold'>Your Installed Apps</h1>

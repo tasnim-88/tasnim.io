@@ -18,7 +18,7 @@ const Apps = () => {
         );
     }
     return (
-        <div className='max-w-[1200px] mx-auto mt-10 text-center space-y-5'>
+        <div className='max-w-[1200px] mx-auto mt-10 text-center space-y-5 px-5 md:px-0'>
             <h1 className='text-4xl font-bold'>Trending Apps</h1>
             <p className='text-[#627382]'>Explore all trending apps on the market developed by us</p>
 

@@ -61,8 +61,8 @@ const AppDetails = () => {
     };
 
     return (
-        <div className='max-w-[1200px] mx-auto mt-10 space-y-5'>
-            <div className='flex gap-10'>
+        <div className='max-w-[1200px] mx-auto mt-10 space-y-5 px-5 md:px-0'>
+            <div className='md:flex gap-10 space-y-5 md:space-y-0'>
                 <div><img className='rounded-lg w-[256px] h-[256px]' src={image} alt={title} /></div>
                 <div>
                     <div>
@@ -92,7 +92,7 @@ const AppDetails = () => {
                     <button
                         onClick={handleInstalled}
                         disabled={installed}
-                        className='btn bg-[#00D390] text-white'
+                        className='btn bg-[#00D390] text-white mt-5'
                     >
                         {installed ? 'Installed' : `Install Now (${size}MB)`}
                     </button>

@@ -52,12 +52,12 @@ const AllCards = () => {
     }
 
     return (
-        <div className="max-w-[1200px] mx-auto mt-10 text-center space-y-5">
+        <div className="max-w-[1200px] mx-auto mt-10 text-center space-y-5 px-5">
             <h1 className="text-4xl font-bold">Our All Applications</h1>
             <p className="text-[#627382]">Explore All Apps on the Market developed by us. We code for Millions</p>
 
             <div className="flex justify-between items-center">
-                <h1 className="text-2xl font-bold">
+                <h1 className="text-xl md:text-2xl font-bold">
                     <span>({filteredApps.length})</span> Apps Found
                 </h1>
 
