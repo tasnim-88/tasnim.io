@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { PiDownloadSimpleBold } from "react-icons/pi";
 import { FaStar } from "react-icons/fa";
 import { toast } from 'react-toastify';
+import useApps from '../../Hooks/useApps';
 
 
 const Installed = () => {
 
+    const {loading} = useApps()
     const [appList, setAppList] = useState([])
     const [sortOrder, setSortOrder] = useState('none')
     useEffect(() => {
@@ -13,29 +15,41 @@ const Installed = () => {
         if (savedList) setAppList(savedList)
     }, [])
 
+    if (loading) {
+        return (
+            <div className="flex items-center justify-center h-[80vh]">
+                <h1 className='text-9xl'>L</h1>
+                <img className="w-28 h-28 animate-spin" src="/src/assets/logo.png" alt="Loading" />
+                <h1 className='text-9xl'>ADING</h1>
+            </div>
+        );
+    }
+
+
+
+    const parseDownloads = (downloads) => {
+        if (!downloads) return 0;
+        const num = parseFloat(downloads);
+        if (downloads.includes('B')) return num * 1_000_000_000;
+        if (downloads.includes('M')) return num * 1_000_000;
+        return num;
+    };
 
     const sortedItem = (() => {
         if (sortOrder === 'app-asc') {
-            return [...appList].sort((a, b) => {
-                const aVal = parseFloat(a.downloads) || 0;
-                const bVal = parseFloat(b.downloads) || 0;
-                return aVal - bVal;
-            });
+            return [...appList].sort((a, b) => parseDownloads(a.downloads) - parseDownloads(b.downloads));
         } else if (sortOrder === 'app-desc') {
-            return [...appList].sort((a, b) => {
-                const aVal = parseFloat(a.downloads) || 0;
-                const bVal = parseFloat(b.downloads) || 0;
-                return bVal - aVal;
-            });
-        } else {
-            return appList;
+            return [...appList].sort((a, b) => parseDownloads(b.downloads) - parseDownloads(a.downloads));
         }
+        return appList;
     })();
+
+
 
     const handleRemove = id => {
         // remove from localstorage
         const existingApp = JSON.parse(localStorage.getItem('apps'))
-        let updatedList=existingApp.filter(p=> p.id !== id)
+        let updatedList = existingApp.filter(p => p.id !== id)
         // removeFromWishlist(id)
         // for ui instant update
         setAppList(updatedList)
@@ -43,6 +57,8 @@ const Installed = () => {
         localStorage.setItem('apps', JSON.stringify(updatedList))
         toast.success('Uninstalled Successfully!')
     }
+
+
 
 
     return (

@@ -16,7 +16,7 @@ import { toast } from 'react-toastify';
 
 const AppDetails = () => {
     const { appId } = useParams();
-    const [apps, loading] = useApps();
+    const {apps, loading} = useApps();
     const [installed, setInstalled] = useState(false);
 
     const app = apps.find(a => String(a.id) === appId);
@@ -28,7 +28,16 @@ const AppDetails = () => {
         setInstalled(isInstalled);
     }, [app]);
 
-    if (loading) return <p>Loading...</p>;
+    // if (loading) return <p>Loading...</p>;
+    if (loading) {
+        return (
+            <div className="flex items-center justify-center h-[80vh]">
+                <h1 className='text-9xl'>L</h1>
+                <img className="w-28 h-28 animate-spin" src="/src/assets/logo.png" alt="Loading" />
+                <h1 className='text-9xl'>ADING</h1>
+            </div>
+        );
+    }
     if (!app) return <AppNotFound></AppNotFound>
 
     const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = app;
@@ -50,7 +59,7 @@ const AppDetails = () => {
     return (
         <div className='max-w-[1200px] mx-auto mt-10 space-y-5'>
             <div className='flex gap-10'>
-                <div><img src={image} alt={title} /></div>
+                <div><img className='rounded-lg w-[256px] h-[256px]' src={image} alt={title} /></div>
                 <div>
                     <div>
                         <h1 className='text-4xl font-bold'>{title}</h1>

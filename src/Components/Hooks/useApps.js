@@ -15,7 +15,7 @@ const useApps = () => {
         .finally(()=>setLoading(false))
     },[])
 
-    return [apps, loading, error]
+    return {apps, loading, error}
 
 }
 

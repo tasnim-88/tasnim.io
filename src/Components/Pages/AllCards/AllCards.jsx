@@ -6,11 +6,20 @@ import AppCard from '../AppCard/AppCard';
 
 const AllCards = () => {
 
-    const [apps] = useApps()
+    const {apps, loading} = useApps()
     const [search, setSearch] = useState('')
     const term = search.trim().toLocaleLowerCase()
     const searchApps = term ? apps.filter(app => app.title.toLocaleLowerCase().includes(term)) : apps
 
+    if (loading) {
+        return (
+            <div className="flex items-center justify-center h-[80vh]">
+                <h1 className='text-9xl'>L</h1>
+                <img className="w-28 h-28 animate-spin" src="/src/assets/logo.png" alt="Loading" />
+                <h1 className='text-9xl'>ADING</h1>
+            </div>
+        );
+    }
 
     return (
         <div className='max-w-[1200px] mx-auto mt-10 text-center space-y-5 border-2'>
