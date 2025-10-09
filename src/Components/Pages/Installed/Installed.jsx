@@ -78,7 +78,7 @@ const Installed = () => {
                         value={sortOrder}
                         onChange={e => setSortOrder(e.target.value)}
                     >
-                        <option value='none'>Sort by price</option>
+                        <option value='none'>Sort by downloads</option>
                         <option value='app-asc'>Low-&gt;High</option>
                         <option value='app-desc'>High-&gt;Low</option>
                     </select>
