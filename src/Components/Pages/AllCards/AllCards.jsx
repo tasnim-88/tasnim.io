@@ -4,6 +4,7 @@ import useApps from '../../Hooks/useApps';
 import { Link } from 'react-router';
 import AppCard from '../AppCard/AppCard';
 import load from '../../../assets/logo.png'
+import apperror from '../../../assets/App-Error.png'
 
 const AllCards = () => {
 
@@ -46,7 +47,7 @@ const AllCards = () => {
                 ) : (
                     <div className="col-span-full text-center py-10">
                         <img
-                            src="/src/assets/App-Error.png"
+                            src={apperror}
                             alt="No Apps Found"
                             className="mx-auto w-[150px] mb-4"
                         />

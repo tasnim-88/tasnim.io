@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../../Header/Navbar';
-import Footer from '../../Footer/Footer';
 import { Link } from 'react-router';
 import apperror from '../../../assets/App-Error.png'
 
