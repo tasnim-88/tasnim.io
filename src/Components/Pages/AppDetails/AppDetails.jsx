@@ -20,7 +20,7 @@ import { toast } from 'react-toastify';
 
 const AppDetails = () => {
     const { appId } = useParams();
-    const {apps, loading} = useApps();
+    const { apps, loading } = useApps();
     const [installed, setInstalled] = useState(false);
 
     const app = apps.find(a => String(a.id) === appId);

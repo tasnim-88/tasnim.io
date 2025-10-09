@@ -11,9 +11,9 @@ const AllCards = () => {
     const [search, setSearch] = useState('');
     const [searching, setSearching] = useState(false);
     const [filteredApps, setFilteredApps] = useState(apps);
-    const navigation = useNavigation(); // 🧭 React Router navigation state
+    const navigation = useNavigation(); 
 
-    // 🔍 Handle search with small delay (for smooth loader)
+    
     useEffect(() => {
         if (!apps.length) return;
         setSearching(true);
@@ -25,12 +25,12 @@ const AllCards = () => {
                 : apps;
             setFilteredApps(results);
             setSearching(false);
-        }, 500); // debounce for smoother UX
+        }, 500); 
 
         return () => clearTimeout(timer);
     }, [search, apps]);
 
-    // 🌀 Loading apps initially
+    
     if (loading) {
         return (
             <div className="flex items-center justify-center h-[80vh]">
@@ -41,7 +41,7 @@ const AllCards = () => {
         );
     }
 
-    // 🧭 Page navigation loading (between routes)
+    
     if (navigation.state === "loading") {
         return (
             <div className="flex flex-col items-center justify-center h-[80vh] space-y-4">
@@ -73,7 +73,7 @@ const AllCards = () => {
                 </div>
             </div>
 
-            {/* 🔍 Search Loading Spinner */}
+            
             {searching ? (
                 <div className="flex flex-col items-center justify-center py-20 space-y-4">
                     <div className="w-14 h-14 border-4 border-[#632EE3] border-t-transparent rounded-full animate-spin"></div>
