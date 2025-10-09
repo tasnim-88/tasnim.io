@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../../assets/logo.png'
 
 
 const Footer = () => {
@@ -9,7 +10,7 @@ const Footer = () => {
 
                     <aside className='space-y-2'>
                         <div className='flex items-center'>
-                            <img className='h-[40px] w-[40px]' src="/src/assets/logo.png" alt="" />
+                            <img className='h-[40px] w-[40px]' src={logo} alt="" />
                             <h1 className='text-xl font-bold'>Tasnim.io</h1>
                         </div>
                         <p className='w-[200px]'>

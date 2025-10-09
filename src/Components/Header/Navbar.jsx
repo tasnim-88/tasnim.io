@@ -1,6 +1,7 @@
 import React from 'react';
 import { DiGithubBadge } from "react-icons/di";
 import { Link } from 'react-router';
+import logo from '../../assets/logo.png'
 
 
 const Navbar = () => {
@@ -25,7 +26,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <Link className='flex justify-center items-center'>
-                    <img className='h-[40px] w-[40px]' src="/src/assets/logo.png" alt="logo.png" />
+                    <img className='h-[40px] w-[40px]' src={logo} alt="logo.png" />
                     <h1 className="bg-gradient-to-br from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent font-bold text-2xl"
                         style={{
                             WebkitBackgroundClip: "text",

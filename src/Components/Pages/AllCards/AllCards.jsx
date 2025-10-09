@@ -3,6 +3,7 @@ import { CiSearch } from "react-icons/ci";
 import useApps from '../../Hooks/useApps';
 import { Link } from 'react-router';
 import AppCard from '../AppCard/AppCard';
+import load from '../../../assets/logo.png'
 
 const AllCards = () => {
 
@@ -15,7 +16,7 @@ const AllCards = () => {
         return (
             <div className="flex items-center justify-center h-[80vh]">
                 <h1 className='text-9xl'>L</h1>
-                <img className="w-28 h-28 animate-spin" src="/src/assets/logo.png" alt="Loading" />
+                <img className="w-28 h-28 animate-spin" src={load} alt="Loading" />
                 <h1 className='text-9xl'>ADING</h1>
             </div>
         );

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import useApps from '../../Hooks/useApps';
+import load from '../../../assets/logo.png'
 import {
     BarChart,
     Bar,
@@ -33,7 +34,7 @@ const AppDetails = () => {
         return (
             <div className="flex items-center justify-center h-[80vh]">
                 <h1 className='text-9xl'>L</h1>
-                <img className="w-28 h-28 animate-spin" src="/src/assets/logo.png" alt="Loading" />
+                <img className="w-28 h-28 animate-spin" src={load} alt="Loading" />
                 <h1 className='text-9xl'>ADING</h1>
             </div>
         );
